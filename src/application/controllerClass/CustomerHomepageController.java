@@ -38,10 +38,14 @@ public class CustomerHomepageController {
 
 	@FXML
 <<<<<<< HEAD
+<<<<<<< HEAD
 	private TableColumn<CustomerOrderTable, String> orderBusinessCol;
 =======
 	private AnchorPane cusOrderPane1;
 >>>>>>> parent of 70e0b49... Big update æœ‰headäº†
+=======
+	private TableColumn<CustomerOrderTable, String> orderBusinessCol;
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
 
 	@FXML
 	private MenuItem orderMenuItem;
@@ -107,14 +111,20 @@ public class CustomerHomepageController {
 	private JFXButton btSearch;
 	@FXML
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
 	private TableColumn<CustomerOrderTable, Integer> orderNumberCol;
 	@FXML
 	private TableColumn<CustomerOrderTable, String> orderStatusCol;
 	@FXML
 	private TableColumn<CustomerOrderTable, String> orderCommentCol;
+<<<<<<< HEAD
 =======
 	private JFXButton btConfirmreceipt;
 >>>>>>> parent of 70e0b49... Big update æœ‰headäº†
+=======
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
 	// ´´½¨²¢³õÊ¼»¯Êý¾Ý
 
 	public void initialize() throws SQLException {

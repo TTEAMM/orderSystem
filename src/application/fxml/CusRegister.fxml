@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <?import javafx.scene.text.*?>
 <?import javafx.geometry.*?>
 >>>>>>> parent of 70e0b49... Big update 有head了
+=======
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
 <?import javafx.scene.paint.*?>
 <?import com.jfoenix.controls.*?>
 <?import javafx.scene.control.*?>
@@ -25,6 +28,9 @@
       <Label fx:id="lbErrorUserName" layoutX="173.0" layoutY="32.0" prefHeight="43.0" prefWidth="225.0" text="Please enter a UserName" textFill="#f50f0f" visible="false" />
       <Label fx:id="lbErrorPassword" layoutX="173.0" layoutY="610.0" prefHeight="43.0" prefWidth="225.0" text="Please check the password" textFill="#f50f0f" visible="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
       <JFXButton fx:id="btRegister" layoutX="201.0" layoutY="661.0" onAction="#btRegister" prefHeight="43.0" prefWidth="104.0" text="Register" textFill="#0a3f32" />
       <JFXTextArea fx:id="txBio" focusColor="#5a3a2b" layoutX="223.0" layoutY="479.0" prefHeight="109.0" prefWidth="257.0" unFocusColor="#0a3f32" />
       <JFXTextField fx:id="txEmail" focusColor="#5a3a2b" layoutX="225.0" layoutY="418.0" prefHeight="50.0" prefWidth="257.0" unFocusColor="#0a3f32" />
@@ -33,6 +39,7 @@
       <JFXPasswordField fx:id="txPsw" focusColor="#5a3a2b" layoutX="225.0" layoutY="154.0" prefHeight="50.0" prefWidth="257.0" unFocusColor="#0a3f32" />
       <JFXPasswordField fx:id="txPswConfirm" focusColor="#5a3a2b" layoutX="225.0" layoutY="218.0" prefHeight="50.0" prefWidth="257.0" unFocusColor="#0a3f32" />
       <JFXTextField fx:id="txUserName" focusColor="#5a3a2b" layoutX="225.0" layoutY="83.0" prefHeight="50.0" prefWidth="257.0" unFocusColor="#0a3f32" />
+<<<<<<< HEAD
 =======
       <JFXButton fx:id="btRegister" layoutX="207.0" layoutY="661.0" onAction="#btRegister" prefHeight="51.0" prefWidth="136.0" style="-fx-background-color: white;" text="Register" textFill="#0a3f32">
          <font>
@@ -86,5 +93,7 @@
          </font>
       </Label>
 >>>>>>> parent of 70e0b49... Big update 有head了
+=======
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
    </children>
 </AnchorPane>

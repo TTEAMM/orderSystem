@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <?import javafx.scene.effect.*?>
 <?import javafx.scene.text.*?>
 >>>>>>> parent of 70e0b49... Big update 有head了
+=======
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
 <?import com.jfoenix.controls.*?>
 <?import javafx.scene.web.*?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -12,6 +15,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <BorderPane prefHeight="425.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllerClass.SignInController">
    <center>
@@ -71,6 +75,21 @@
                </font>
             </Label>
 >>>>>>> parent of 70e0b49... Big update 有head了
+=======
+<BorderPane prefHeight="425.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllerClass.SignInController">
+   <center>
+      <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="420.0" prefWidth="725.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="lbID" alignment="CENTER" layoutX="106.0" layoutY="91.0" prefHeight="48.0" prefWidth="110.0" text="ID" textFill="#0a3f32" />
+            <Label fx:id="lbPsw" alignment="CENTER" layoutX="106.0" layoutY="161.0" prefHeight="48.0" prefWidth="110.0" text="PASSWORD" textFill="#0a3f32" />
+            <Label fx:id="labError" layoutX="152.0" layoutY="316.0" prefHeight="24.0" prefWidth="88.0" text="Login error" textFill="#f50f0f" visible="false" />
+            <JFXButton fx:id="btSignIn" layoutX="146.0" layoutY="268.0" onAction="#btSign" prefHeight="48.0" prefWidth="101.0" text=" sign in" textFill="#0a3f32" />
+            <JFXButton fx:id="btRegister" layoutX="327.0" layoutY="268.0" onAction="#btRegister" prefHeight="48.0" prefWidth="100.0" text="Register" textFill="#0a3f32" />
+            <JFXTextField fx:id="txID" focusColor="#0a3f32" layoutX="270.0" layoutY="67.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="48.0" prefWidth="248.0" text="xhy" />
+            <JFXRadioButton fx:id="raBus" layoutX="332.0" layoutY="235.0" onAction="#selectRaBus" text="Business" />
+            <JFXPasswordField fx:id="txPsw" focusColor="#104918" layoutX="270.0" layoutY="137.0" prefHeight="48.0" prefWidth="248.0" text="123456" />
+            <JFXRadioButton fx:id="raCus" layoutX="146.0" layoutY="235.0" onAction="#selectRaCus" selected="true" text="Customer" />
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
          </children>
       </AnchorPane>
    </center>

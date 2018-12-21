@@ -9,6 +9,9 @@
 <AnchorPane fx:id="ShopHomepage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="776.0" prefWidth="1193.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllerClass.ShopHomepageController">
    <children>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
       <TitledPane animated="false" layoutY="-30.0" prefHeight="30.0" prefWidth="1193.0" text="Homepage" textFill="#104918">
          <content>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
@@ -40,6 +43,7 @@
             <Font size="67.0" />
          </font>
       </Label>
+<<<<<<< HEAD
 =======
       <AnchorPane prefHeight="768.0" prefWidth="167.0">
          <children>
@@ -252,5 +256,7 @@
          </children>
       </AnchorPane>
 >>>>>>> parent of 70e0b49... Big update 有head了
+=======
+>>>>>>> parent of 9dca3b2... Merge branch 'master' of https://github.com/TTEAMM/orderSystem
    </children>
 </AnchorPane>
