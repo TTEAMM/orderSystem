@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
+=======
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+>>>>>>> parent of 70e0b49... Big update 有head了
 <?import javafx.scene.paint.*?>
 <?import com.jfoenix.controls.*?>
 <?import javafx.scene.control.*?>
@@ -19,6 +24,7 @@
       <Label fx:id="lbErrorUserName2" layoutX="173.0" layoutY="610.0" prefHeight="43.0" prefWidth="225.0" text="Please change a user name" textFill="#f50f0f" visible="false" />
       <Label fx:id="lbErrorUserName" layoutX="173.0" layoutY="32.0" prefHeight="43.0" prefWidth="225.0" text="Please enter a UserName" textFill="#f50f0f" visible="false" />
       <Label fx:id="lbErrorPassword" layoutX="173.0" layoutY="610.0" prefHeight="43.0" prefWidth="225.0" text="Please check the password" textFill="#f50f0f" visible="false" />
+<<<<<<< HEAD
       <JFXButton fx:id="btRegister" layoutX="201.0" layoutY="661.0" onAction="#btRegister" prefHeight="43.0" prefWidth="104.0" text="Register" textFill="#0a3f32" />
       <JFXTextArea fx:id="txBio" focusColor="#5a3a2b" layoutX="223.0" layoutY="479.0" prefHeight="109.0" prefWidth="257.0" unFocusColor="#0a3f32" />
       <JFXTextField fx:id="txEmail" focusColor="#5a3a2b" layoutX="225.0" layoutY="418.0" prefHeight="50.0" prefWidth="257.0" unFocusColor="#0a3f32" />
@@ -27,5 +33,58 @@
       <JFXPasswordField fx:id="txPsw" focusColor="#5a3a2b" layoutX="225.0" layoutY="154.0" prefHeight="50.0" prefWidth="257.0" unFocusColor="#0a3f32" />
       <JFXPasswordField fx:id="txPswConfirm" focusColor="#5a3a2b" layoutX="225.0" layoutY="218.0" prefHeight="50.0" prefWidth="257.0" unFocusColor="#0a3f32" />
       <JFXTextField fx:id="txUserName" focusColor="#5a3a2b" layoutX="225.0" layoutY="83.0" prefHeight="50.0" prefWidth="257.0" unFocusColor="#0a3f32" />
+=======
+      <JFXButton fx:id="btRegister" layoutX="207.0" layoutY="661.0" onAction="#btRegister" prefHeight="51.0" prefWidth="136.0" style="-fx-background-color: white;" text="Register" textFill="#0a3f32">
+         <font>
+            <Font name="Segoe Script" size="20.0" />
+         </font></JFXButton>
+      <VBox alignment="CENTER" layoutX="108.0" layoutY="143.0" prefHeight="484.0" prefWidth="334.0" spacing="10.0" style="-fx-background-radius: 0; -fx-background-color: white;">
+         <children>
+            <JFXTextField fx:id="txUserName" alignment="CENTER" focusColor="LIGHTGRAY" prefHeight="50.0" prefWidth="257.0" promptText="Username" style="-fx-border-color: #484D53; -fx-border-radius: 0;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="txPsw" alignment="CENTER" focusColor="LIGHTGRAY" prefHeight="50.0" prefWidth="417.0" promptText="Password" style="-fx-border-color: #484D53;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXPasswordField fx:id="txPswConfirm" alignment="CENTER" focusColor="LIGHTGRAY" prefHeight="50.0" prefWidth="257.0" promptText="Confirm your password" style="-fx-border-color: #484D53;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXTextField fx:id="txNickname" alignment="CENTER" focusColor="LIGHTGRAY" prefHeight="50.0" prefWidth="257.0" promptText="Nickname" style="-fx-border-color: #484D53;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="txPhoneNum" alignment="CENTER" focusColor="LIGHTGRAY" prefHeight="50.0" prefWidth="257.0" promptText="Phone Number" style="-fx-border-color: #484D53;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="txEmail" alignment="CENTER" focusColor="LIGHTGRAY" prefHeight="50.0" prefWidth="257.0" promptText="Email" style="-fx-border-color: #484D53;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextArea fx:id="txBio" focusColor="LIGHTGRAY" prefHeight="109.0" prefWidth="257.0" promptText="Bio" style="-fx-border-color: #484D53;" unFocusColor="WHITE">
+               <font>
+                  <Font name="Verdana" size="15.0" />
+               </font>
+            </JFXTextArea>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+      <Label alignment="CENTER" layoutX="163.0" layoutY="1.0" prefHeight="141.0" prefWidth="225.0" text="Sign Up">
+         <font>
+            <Font name="Vivaldi Italic" size="45.0" />
+         </font>
+      </Label>
+>>>>>>> parent of 70e0b49... Big update 有head了
    </children>
 </AnchorPane>

@@ -8,6 +8,7 @@
 
 <AnchorPane fx:id="ShopHomepage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="776.0" prefWidth="1193.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllerClass.ShopHomepageController">
    <children>
+<<<<<<< HEAD
       <TitledPane animated="false" layoutY="-30.0" prefHeight="30.0" prefWidth="1193.0" text="Homepage" textFill="#104918">
          <content>
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
@@ -39,5 +40,217 @@
             <Font size="67.0" />
          </font>
       </Label>
+=======
+      <AnchorPane prefHeight="768.0" prefWidth="167.0">
+         <children>
+            <VBox alignment="TOP_CENTER" layoutX="2.0" layoutY="81.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="687.0" prefWidth="167.0" spacing="11.0" style="-fx-background-color: #2E3539;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="81.0">
+               <children>
+                  <JFXButton fx:id="btUser" alignment="TOP_LEFT" onAction="#initUserInf" prefHeight="50.0" prefWidth="228.0" style="-fx-border-bottom-color: white;" text="User" textFill="#848586" VBox.vgrow="ALWAYS">
+                     <font>
+                        <Font name="Arial" size="25.0" />
+                     </font>
+                     <VBox.margin>
+                  
+                     </VBox.margin>
+                  </JFXButton>
+                  <JFXButton fx:id="btOrder" alignment="TOP_LEFT" maxHeight="1.7976931348623157E308" onAction="#initOrderSearch" prefHeight="50.0" prefWidth="228.0" text="Order" textAlignment="CENTER" textFill="#848586">
+                     <cursor>
+                        <Cursor fx:constant="DISAPPEAR" />
+                     </cursor>
+                     <effect>
+                        <SepiaTone />
+                     </effect>
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="btItem" alignment="TOP_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="50.0" prefWidth="219.0" styleClass="#77969A" text="Item" textFill="#848586" textOverrun="CLIP">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="btLogout" alignment="TOP_LEFT" prefHeight="51.0" prefWidth="263.0" text="Logout" textFill="#848586" textOverrun="CLIP">
+                     <font>
+                        <Font name="Arial" size="24.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+               <opaqueInsets>
+                  <Insets bottom="8.0" top="8.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets bottom="8.0" top="8.0" />
+               </padding>
+            </VBox>
+            <Label prefHeight="84.0" prefWidth="167.0" style="-fx-border-style: dotted; -fx-background-color: #39C164;" text="Best Order System" textAlignment="JUSTIFY" textFill="#fcfcfc">
+               <font>
+                  <Font name="Microsoft JhengHei Light" size="18.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets bottom="8.0" top="8.0" />
+               </opaqueInsets>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="OrderPane" layoutX="167.0" prefHeight="768.0" prefWidth="859.0">
+         <children>
+            <TableView fx:id="orderTable" layoutX="25.0" layoutY="192.0" prefHeight="515.0" prefWidth="793.0" style="-fx-background-radius: 10;" AnchorPane.leftAnchor="25.0">
+               <columns>
+                  <TableColumn fx:id="orderItemCol" prefWidth="88.0" text="Item Name" />
+                  <TableColumn fx:id="orderQuantityCol" prefWidth="28.0" text="Qty" />
+                  <TableColumn fx:id="orderSubCol" prefWidth="138.0" text="SubTotal" />
+                  <TableColumn fx:id="orderDateCol" prefWidth="120.0" text="Date" />
+                  <TableColumn fx:id="orderStatusCol" minWidth="0.0" prefWidth="93.0" text="Status" />
+                  <TableColumn fx:id="orderCommentCol" prefWidth="128.0" text="Comment" />
+                  <TableColumn fx:id="orderNumberCol" prefWidth="123.0" text="OrderNumber" />
+                  <TableColumn fx:id="btOrderCol" prefWidth="64.0" text="Select" />
+               </columns>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" height="0.0" offsetX="1.0" offsetY="1.0" radius="5.4925" width="23.97" />
+               </effect>
+            </TableView>
+            <AnchorPane layoutX="25.0" layoutY="3.0" prefHeight="172.0" prefWidth="793.0" style="-fx-background-color: white; -fx-background-radius: 10;" AnchorPane.leftAnchor="25.0">
+               <children>
+                  <Label layoutY="98.0" prefHeight="36.0" prefWidth="164.0" text="OrderMange">
+                     <font>
+                        <Font name="Verdana" size="26.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="LabText" prefHeight="84.0" prefWidth="793.0" style="-fx-border-color: #F5F5F5;" text="Username/Order(wait for css)" textFill="#544040">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="31.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="tfSearchOrder" layoutX="185.0" layoutY="122.0" prefHeight="25.0" prefWidth="254.0" />
+                  <JFXRadioButton fx:id="orderItemRad" layoutX="472.0" layoutY="89.0" prefHeight="25.0" prefWidth="174.0" selected="true" text="Item">
+                     <font>
+                        <Font name="Verdana" size="14.0" />
+                     </font></JFXRadioButton>
+                  <JFXRadioButton fx:id="orderCustomerRad" layoutX="472.0" layoutY="120.0" prefHeight="29.0" prefWidth="186.0" text="CustomerUserName">
+                     <font>
+                        <Font name="Verdana" size="15.0" />
+                     </font></JFXRadioButton>
+                  <JFXButton fx:id="btSearchOrder" layoutX="660.0" layoutY="107.0" prefHeight="36.0" prefWidth="98.0" style="-fx-background-color: #35B4E3;" text="Search" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana" size="19.0" />
+                     </font></JFXButton>
+               </children>
+               <effect>
+                  <DropShadow blurType="ONE_PASS_BOX" color="#c9afaf" offsetX="2.0" offsetY="2.0" />
+               </effect>
+            </AnchorPane>
+            <JFXButton fx:id="btConfirmshipment" layoutX="638.0" layoutY="714.0" prefHeight="47.0" prefWidth="180.0" style="-fx-background-color: #39C164;" text="Confirm shipment" textFill="#f8f8f8">
+               <font>
+                  <Font name="Verdana" size="16.0" />
+               </font></JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="ItemPane" layoutX="226.0" layoutY="2.0" prefHeight="768.0" prefWidth="800.0" visible="false">
+         <children>
+            <TableView fx:id="ItemTableView" layoutX="15.0" layoutY="140.0" prefHeight="515.0" prefWidth="705.0">
+              <columns>
+                <TableColumn fx:id="itemProductnumCol" prefWidth="106.0" text="ProductNumber" />
+                <TableColumn fx:id="itemNameCol" prefWidth="88.0" text="Name" />
+                  <TableColumn fx:id="itemCostCol" prefWidth="88.0" text="StandardCost" />
+                  <TableColumn fx:id="itemDetailCol" prefWidth="230.0" text="Detail" />
+                  <TableColumn fx:id="itemWeightCol" prefWidth="124.0" text="weight" />
+                  <TableColumn prefWidth="75.0" text="Select" />
+              </columns>
+            </TableView>
+            <JFXButton fx:id="btAddItem" layoutX="368.0" layoutY="655.0" prefHeight="29.0" prefWidth="119.0" style="-fx-background-color: white;" text="Add a Item" textFill="#0a2c0b">
+               <font>
+                  <Font name="Bell MT" size="16.0" />
+               </font>
+            </JFXButton>
+            <AnchorPane layoutX="15.0" prefHeight="132.0" prefWidth="705.0">
+               <children>
+                  <Label layoutX="14.0" layoutY="96.0" prefHeight="36.0" prefWidth="132.0" text="Product">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+                  <JFXTextField fx:id="tfSearch" layoutX="123.0" layoutY="101.0" prefHeight="25.0" prefWidth="288.0" />
+                  <Label layoutX="3.0" layoutY="14.0" prefHeight="66.0" prefWidth="390.0" style="-fx-border-color: white;" text="Username/Item(wait to css)">
+                     <font>
+                        <Font name="Ebrima" size="31.0" />
+                     </font>
+                  </Label>
+                  <JFXButton fx:id="btSearch" layoutX="579.0" layoutY="95.0" prefHeight="36.0" prefWidth="119.0" style="-fx-background-color: white;" text="Search" />
+                  <MenuButton layoutX="455.0" layoutY="99.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="98.0" text="Sort By">
+                     <items>
+                        <MenuItem mnemonicParsing="false" text="Name" />
+                        <MenuItem mnemonicParsing="false" text="Business" />
+                     </items>
+                  </MenuButton>
+               </children>
+            </AnchorPane>
+            <JFXButton fx:id="btDelItem" layoutX="501.0" layoutY="655.0" prefHeight="33.0" prefWidth="219.0" style="-fx-background-color: white;" text="Delete selected item" textFill="#0a2c0b">
+               <font>
+                  <Font name="Bell MT" size="16.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="userInfPane" layoutX="226.0" layoutY="2.0" prefHeight="736.0" prefWidth="800.0" visible="false">
+         <children>
+            <VBox layoutX="120.0" layoutY="84.0" prefHeight="569.0" prefWidth="561.0">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="181.0" prefWidth="194.0" text="UserName" />
+                        <JFXTextField fx:id="tfUser" prefHeight="100.0" prefWidth="396.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="181.0" prefWidth="194.0" text="Original Password" />
+                        <JFXTextField fx:id="originalpwd" prefHeight="100.0" prefWidth="396.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="181.0" prefWidth="194.0" text="New Password" />
+                        <JFXTextField fx:id="newpwd" prefHeight="100.0" prefWidth="396.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="181.0" prefWidth="194.0" text="Confirm New Password" />
+                        <JFXTextField fx:id="confirmpwd" prefHeight="100.0" prefWidth="396.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="181.0" prefWidth="194.0" text="Phone" />
+                        <JFXTextField fx:id="tfPhone" prefHeight="100.0" prefWidth="396.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="181.0" prefWidth="194.0" text="Email" />
+                        <JFXTextField fx:id="tfEmail" prefHeight="100.0" prefWidth="396.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="181.0" prefWidth="194.0" text="Shipping Address" />
+                        <JFXTextField fx:id="tfShipping" prefHeight="100.0" prefWidth="396.0" />
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                        <Label alignment="BOTTOM_CENTER" prefHeight="181.0" prefWidth="194.0" text="Business Name" />
+                        <JFXTextField fx:id="tfBusinessname" prefHeight="100.0" prefWidth="396.0" />
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <JFXButton fx:id="btChangeInf" layoutX="582.0" layoutY="676.0" onAction="#changeInf" prefHeight="25.0" prefWidth="132.0" text="update your Inf" />
+         </children>
+      </AnchorPane>
+>>>>>>> parent of 70e0b49... Big update 有head了
    </children>
 </AnchorPane>

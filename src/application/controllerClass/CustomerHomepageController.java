@@ -37,7 +37,11 @@ public class CustomerHomepageController {
 	private MenuItem orderMenuBusiness;
 
 	@FXML
+<<<<<<< HEAD
 	private TableColumn<CustomerOrderTable, String> orderBusinessCol;
+=======
+	private AnchorPane cusOrderPane1;
+>>>>>>> parent of 70e0b49... Big update æœ‰headäº†
 
 	@FXML
 	private MenuItem orderMenuItem;
@@ -102,11 +106,15 @@ public class CustomerHomepageController {
 	@FXML
 	private JFXButton btSearch;
 	@FXML
+<<<<<<< HEAD
 	private TableColumn<CustomerOrderTable, Integer> orderNumberCol;
 	@FXML
 	private TableColumn<CustomerOrderTable, String> orderStatusCol;
 	@FXML
 	private TableColumn<CustomerOrderTable, String> orderCommentCol;
+=======
+	private JFXButton btConfirmreceipt;
+>>>>>>> parent of 70e0b49... Big update æœ‰headäº†
 	// ´´½¨²¢³õÊ¼»¯Êý¾Ý
 
 	public void initialize() throws SQLException {
@@ -134,8 +142,11 @@ public class CustomerHomepageController {
 	}
 
 	public void initOrderSearch() {
+<<<<<<< HEAD
 		cusItemPane.setVisible(false);
 		cusOrderPane.setVisible(true);
+=======
+>>>>>>> parent of 70e0b49... Big update æœ‰headäº†
 		Db db = new Db();
 		QueryRunner qr = new QueryRunner();
 		String sql = "select * from salesorder where customerid =" + NowInf.customer.getCustomerId();

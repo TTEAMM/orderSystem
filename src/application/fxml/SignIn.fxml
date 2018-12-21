@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
+=======
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+>>>>>>> parent of 70e0b49... Big update 有head了
 <?import com.jfoenix.controls.*?>
 <?import javafx.scene.web.*?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -7,6 +12,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
+<<<<<<< HEAD
 <BorderPane prefHeight="425.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllerClass.SignInController">
    <center>
       <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="420.0" prefWidth="725.0" BorderPane.alignment="CENTER">
@@ -20,6 +26,51 @@
             <JFXRadioButton fx:id="raBus" layoutX="332.0" layoutY="235.0" onAction="#selectRaBus" text="Business" />
             <JFXPasswordField fx:id="txPsw" focusColor="#104918" layoutX="270.0" layoutY="137.0" prefHeight="48.0" prefWidth="248.0" text="123456" />
             <JFXRadioButton fx:id="raCus" layoutX="146.0" layoutY="235.0" onAction="#selectRaCus" selected="true" text="Customer" />
+=======
+<AnchorPane prefHeight="534.0" prefWidth="600.0" style="-fx-background-color: #71767C;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="111.0" layoutY="65.0" prefHeight="405.0" prefWidth="380.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 15;">
+         <children>
+            <JFXRadioButton fx:id="raBus" layoutX="44.0" layoutY="243.0" onAction="#selectRaBus" prefWidth="92.0" selected="true" text="Business" textFill="#8d8d8d">
+               <font>
+                  <Font name="Verdana" size="13.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXButton fx:id="btSignIn" layoutX="34.0" layoutY="268.0" onAction="#btSign" prefHeight="48.0" prefWidth="295.0" style="-fx-background-color: #009A9A; -fx-background-radius: 11;" text="Sign In" textFill="#cdffff">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="labError" layoutX="53.0" layoutY="280.0" prefHeight="24.0" prefWidth="88.0" text="Login error" textFill="#f50f0f" visible="false" />
+            <JFXRadioButton fx:id="raCus" layoutX="44.0" layoutY="214.0" onAction="#selectRaCus" text="Customer" textFill="#8d8d8d">
+               <font>
+                  <Font name="Verdana" size="13.0" />
+               </font>
+            </JFXRadioButton>
+            <JFXButton fx:id="btRegister" layoutX="34.0" layoutY="329.0" onAction="#btRegister" prefHeight="48.0" prefWidth="295.0" style="-fx-background-color: #009A9A; -fx-background-radius: 11;" text="Register" textFill="#cdffff">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </JFXButton>
+            <VBox layoutX="44.0" layoutY="106.0" prefHeight="108.0" prefWidth="295.0" style="-fx-background-radius: 11;">
+               <children>
+                  <JFXTextField fx:id="txID" focusColor="#0a3f32" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="47.0" prefWidth="295.0" promptText="Username" text="ff14" unFocusColor="#d9d9d9">
+                     <font>
+                        <Font name="Verdana" size="15.0" />
+                     </font>
+                  </JFXTextField>
+                  <JFXPasswordField fx:id="txPsw" focusColor="#104918" prefHeight="47.0" prefWidth="314.0" promptText="Password" text="123456" unFocusColor="#d9d9d9">
+                     <font>
+                        <Font name="Verdana" size="15.0" />
+                     </font></JFXPasswordField>
+               </children>
+            </VBox>
+            <Label alignment="CENTER" layoutX="-2.0" layoutY="33.0" prefHeight="58.0" prefWidth="380.0" text="Login" textFill="#656565">
+               <font>
+                  <Font name="Bookman Old Style" size="69.0" />
+               </font>
+            </Label>
+>>>>>>> parent of 70e0b49... Big update 有head了
          </children>
       </AnchorPane>
    </center>
